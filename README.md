@@ -56,31 +56,21 @@ Each dataset includes multiple medical parameters (like glucose level, blood pre
 
 ---
 
-## 🔍 Project Flow  
+## 🚀 Features  
 
-## 🔍 Project Flow  
+✅ **Predicts** Diabetes, Heart Disease, and Parkinson’s Disease with high accuracy.  
+✅ **Interactive Streamlit web interface** for real-time predictions.  
+✅ **Multiple input fields** for user medical parameters.  
+✅ **Hybrid ML & DL approach** for robust and precise results.  
+✅ **Visualization dashboard** for analytics and insights.  
+✅ **Responsive design** using HTML, CSS, and Bootstrap-inspired layout.  
+✅ **One-click deployment** directly via Streamlit or localhost.  
 
-```mermaid
-graph TD
-A[Import Dataset] --> B[Data Cleaning and Preprocessing]
-B --> C[Exploratory Data Analysis (EDA)]
-C --> D[Model Training with ML and DL Algorithms]
-D --> E[Model Evaluation and Accuracy Testing]
-E --> F[Deploy Model using Streamlit]
-F --> G[Predict Diseases based on User Inputs]
+---
 
+## ⚙️ Installation & Setup  
 
-🚀 Features
-
-✅ Predicts Diabetes, Heart Disease, and Parkinson’s Disease with high accuracy.
-✅ Interactive Streamlit web interface for real-time predictions.
-✅ Multiple input fields for medical parameters.
-✅ ML & DL hybrid approach for robust predictions.
-✅ Visualization dashboard for insights and model results.
-✅ Responsive design using HTML, CSS, and Bootstrap-inspired layout.
-✅ User-friendly deployment directly via Streamlit or localhost.
-
-Installation & Setup
+```bash
 # 1️⃣ Clone the repository
 git clone https://github.com/yourusername/Multiple-Disease-Prediction-System-App.git
 
@@ -92,42 +82,3 @@ pip install -r requirements.txt
 
 # 4️⃣ Run the Streamlit app
 streamlit run app.py
-
-🧠 Model Training Steps
-
-1️⃣ Import Dataset — from Kaggle datasets for all three diseases.
-2️⃣ Preprocess Data — clean missing values, normalize data, split for training/testing.
-3️⃣ Train Models — using SVM, Logistic Regression, and Neural Networks.
-4️⃣ Evaluate Models — accuracy, confusion matrix, precision-recall.
-5️⃣ Integrate Models — combine predictions into a unified app interface.
-6️⃣ Deploy via Streamlit — user inputs → predictions → displayed results.
-
-📸 Screenshots
-App Homepage
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cd90ec68-0f44-4476-ad6f-2a4ea8d1955e" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9c566111-67d2-4d3d-8b57-fb4fa397e6f3" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/18ebb12d-d4b5-49cf-b6eb-1b4cb29f0781" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3e0ffc38-76dc-4dda-a7f0-c7ca3a3bf029" />
-
-📈 Example Output
-🔹 Entered Parameters:
-Glucose: 140 | Blood Pressure: 80 | BMI: 28.5 | Age: 45
-
-✅ Prediction: The patient is likely *not diabetic*.
-
-💡 Future Enhancements
-
-🔹 Integrate more diseases like liver or kidney disease.
-
-🔹 Add user authentication & history tracking.
-
-🔹 Deploy on cloud platforms (AWS, Heroku).
-
-🔹 Enable real-time data input via wearable devices.
-
-📜 License
-
-This project is licensed under the MIT License — free to use and modify with proper attribution.
-
-⭐ If you found this project helpful, don’t forget to star the repo!
-🩺 Stay healthy, stay informed — powered by AI. 🤖
