@@ -82,3 +82,32 @@ pip install -r requirements.txt
 
 # 4️⃣ Run the Streamlit app
 streamlit run app.py
+
+📸 Screenshots
+🏠 App Homepage
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0b060a95-3e75-408e-b584-42b94b536175" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b631c07c-de80-4ee7-8aa6-c47460284110" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7ae07ed3-ea08-4954-8993-d8c78116931e" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fff2479a-24cf-4030-967b-ea6ad60fe073" />
+
+## 💡 Future Enhancements
+
+🔹 Integrate more diseases like liver or kidney disorders.  
+🔹 Add user authentication & prediction history tracking.  
+🔹 Deploy on cloud platforms such as AWS or Heroku.  
+🔹 Enable real-time health monitoring via wearable IoT devices.  
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** — free to use, modify, and distribute with proper attribution.  
+
+---
+
+⭐ **If you found this project helpful, don’t forget to star the repo!**  
+🩺 *Stay healthy, stay informed — powered by AI.* 🤖  
+
+
+
+
