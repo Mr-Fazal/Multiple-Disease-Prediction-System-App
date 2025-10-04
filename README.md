@@ -58,14 +58,17 @@ Each dataset includes multiple medical parameters (like glucose level, blood pre
 
 ## 🔍 Project Flow  
 
+## 🔍 Project Flow  
+
 ```mermaid
 graph TD
-A[📥 Import Dataset] --> B[🧹 Data Cleaning & Preprocessing]
-B --> C[📊 Exploratory Data Analysis (EDA)]
-C --> D[🧠 Model Training with ML/DL Algorithms]
-D --> E[⚙️ Model Evaluation & Accuracy Testing]
-E --> F[🌐 Deploy Model via Streamlit]
-F --> G[🩺 Predict Diseases based on User Inputs]
+A[Import Dataset] --> B[Data Cleaning and Preprocessing]
+B --> C[Exploratory Data Analysis (EDA)]
+C --> D[Model Training with ML and DL Algorithms]
+D --> E[Model Evaluation and Accuracy Testing]
+E --> F[Deploy Model using Streamlit]
+F --> G[Predict Diseases based on User Inputs]
+
 
 🚀 Features
 
